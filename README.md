@@ -1,5 +1,17 @@
 # import_deps
 
+This is a fork of https://github.com/schettino72/import-deps.
+
+A big "Thank you" to the creater of that repo for his work !
+
+My intention is to use this code to build a script that creates
+module depency graphs but I first have to understand how ast can be
+used to parse the impors.
+
+My own first attempt was flawed and did not work for relative
+import (from .foo import bar) so I decided to have a look at the repo
+above.
+
 [![PyPI version](https://img.shields.io/pypi/v/import-deps.svg)](https://pypi.org/project/import-deps/)
 [![Python versions](https://img.shields.io/pypi/pyversions/import-deps.svg)](https://pypi.org/project/import-deps/)
 [![CI Github actions](https://github.com/schettino72/import-deps/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/schettino72/import-deps/actions/workflows/test.yml?query=branch%3Amaster)
